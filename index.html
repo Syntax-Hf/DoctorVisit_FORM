@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doctor visit form</title>
+  </head>
+  <body>
+    <center><h1>Doctor visit form</h1></center>
+    <br />
+    <center>
+      <b>
+        <form>
+          <p>PATIENT'S Information;</p>
+          <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname" required /><br /><br />
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" name="lname" required /><br /><br />
+          GENDER:<input type="radio" id="male" name="gender" value="male" />
+
+          <label for="male">Male</label>
+
+          <input type="radio" id="female" name="gender" value="female" /><label
+            for="female"
+            >Female</label
+          ><br />
+          <br />
+          <hr />
+          <br />
+          <label
+            >Appointment type <input type="checkbox" /><label for="visit1"
+              >First visit</label
+            >
+            <input type="checkbox" /><label for="visit2">Follow-up visit</label>
+            <input type="checkbox" /><label for="visit3"
+              >Routine checkup</label
+            ></label
+          ><br /><br />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required /><br />
+          <br /><label for="phone">Phone number:</label>
+          <input type="tel" id="phone" name="phone" required /><br />
+
+          <hr />
+          <p>APPOINTMENT DETAILS:</p>
+          <label for="date">Preferred appointment date:</label>
+          <input type="date" id="date" name="date" required /><br /><br />
+
+          <label for="time">Preferred appointment time:</label>
+          <input type="time" id="time" name="time" required /><br /><br />
+          <hr />
+          <p>Reason for visit:</p>
+
+          <textarea
+            id="reason"
+            name="reason"
+            rows="13"
+            cols="15"
+            required
+            placeholder="Please describe the reason for your visit..."
+          ></textarea>
+          <br /><br />
+          <input type="submit" value="Submit" />
+          <input type="reset" value="reset" /></form
+      ></b>
+    </center>
+    <br />
+    <hr />
+    <br />
+    <footer>MADE BY Hurain fatima</footer>
+  </body>
+</html>
